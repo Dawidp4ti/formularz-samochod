@@ -7,10 +7,39 @@
     <title>Formularz Samochodowy</title>
   </head>
   <body>
-    <div class="container">
-      <div class="head"></div>
-      <div class="main"></div>
-      <div class="end"></div>
-    </div>
+    <form>
+      <div class="container">
+        <div class="head">
+          <fieldset>
+            <legend>Dane Kupującego</legend>
+            <label for="fName">
+              <input type="text" name="fName" id="fName" placeholder="Marian" />
+              Imie
+            </label>
+            <label for="lName">
+              <input
+                type="text"
+                name="lName"
+                id="lName"
+                placeholder="Kowalski"
+              />
+              Nazwisko
+            </label>
+            <label for="bdate"> <input type="date" /> Data urodzenia </label>
+            <div class="plec">
+              <legend>Płeć</legend>
+              <label for="man">
+                <input type="radio" name="gender" id="man" /> Mężczyzna
+              </label>
+              <label for="woman">
+                <input type="radio" name="gender" id="woman" /> Kobieta
+              </label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="main"></div>
+        <div class="end"></div>
+      </div>
+    </form>
   </body>
 </html>
