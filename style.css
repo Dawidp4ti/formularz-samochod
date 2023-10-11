@@ -20,3 +20,7 @@
   width: 100%;
   background-color: rgb(244, 127, 255);
 }
+
+label {
+  display: block;
+}
