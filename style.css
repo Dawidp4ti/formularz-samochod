@@ -1,7 +1,7 @@
 .container {
   background-color: grey;
   width: 95vw;
-  height: 95vh;
+  height: 88vh;
   display: flex;
   flex-wrap: wrap;
   padding: 0.6rem;
@@ -20,17 +20,29 @@
 }
 
 .main {
+  border: 3px;
+  border-style: solid;
+  border-radius: 10px;
   width: 100%;
   background-color: aquamarine;
+  height: fit-content;
+  padding: 8px;
 }
 
 .end {
+  border: 3px;
+  border-style: solid;
+  border-radius: 10px;
   width: 100%;
   background-color: rgb(244, 127, 255);
+  height: fit-content;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 label {
-  font-size: large;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -47,11 +59,12 @@ label {
 
 legend {
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 1.2rem;
 }
 
 fieldset {
-  border-style: dashed;
+  border-style: solid;
   border-radius: 10px;
 }
 
@@ -92,4 +105,22 @@ option {
 
 .test {
   width: 236.5px;
+}
+
+.end_1 {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.end_2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+.end_3 {
+  width: 100%;
+  text-align: center;
 }
