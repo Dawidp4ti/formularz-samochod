@@ -10,32 +10,60 @@
     <form>
       <div class="container">
         <div class="head">
-          <fieldset>
-            <legend>Dane Kupującego</legend>
-            <label for="fName">
-              <input type="text" name="fName" id="fName" placeholder="Marian" />
-              Imie
-            </label>
-            <label for="lName">
-              <input
-                type="text"
-                name="lName"
-                id="lName"
-                placeholder="Kowalski"
-              />
-              Nazwisko
-            </label>
-            <label for="bdate"> <input type="date" /> Data urodzenia </label>
-            <div class="plec">
-              <legend>Płeć</legend>
-              <label for="man">
-                <input type="radio" name="gender" id="man" /> Mężczyzna
+          <div class="dane">
+            <fieldset>
+              <legend>Dane Kupującego</legend>
+              <label for="fName">
+                Imie:
+                <input
+                  type="text"
+                  name="fName"
+                  id="fName"
+                  placeholder="Marian"
+                />
               </label>
-              <label for="woman">
-                <input type="radio" name="gender" id="woman" /> Kobieta
+              <label for="lName">
+                Nazwisko:
+                <input
+                  type="text"
+                  name="lName"
+                  id="lName"
+                  placeholder="Kowalski"
+                />
               </label>
-            </div>
-          </fieldset>
+              <label for="bdate">Data urodzenia: <input type="date" /> </label>
+              <fieldset>
+                <legend>Płeć</legend>
+                <label for="man">
+                  <input type="radio" name="gender" id="man" /> Mężczyzna
+                </label>
+                <label for="woman">
+                  <input type="radio" name="gender" id="woman" /> Kobieta
+                </label>
+              </fieldset>
+              <fieldset>
+                <legend>Dane kontaktowe</legend>
+                <label for="tel">
+                  Telefon:
+                  <input type="tel" name="tel" id="tel" placeholder="+48" />
+                </label>
+                <label for="mail">
+                  Email:
+                  <input
+                    type="email"
+                    name="mail"
+                    id="mail"
+                    placeholder="kowalski@gmail.com"
+                  />
+                </label>
+              </fieldset>
+            </fieldset>
+          </div>
+          <div class="logowanie">
+            <fieldset>
+              <legend>Logowanie</legend>
+            </fieldset>
+          </div>
         </div>
         <div class="main"></div>
         <div class="end"></div>
