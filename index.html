@@ -88,71 +88,112 @@
         <div class="main">
           <fieldset>
             <legend>Informacje o pojeździe</legend>
-            <fieldset>
-              <legend>Marka oraz rodzaj</legend>
-              <label for="opt_model" class="blok">
-                <select name="opt_model" id="opt_model">
-                  <option value="none" class="none">Brak</option>
-                  <optgroup label="BMW">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                  </optgroup>
-                  <optgroup label="Dodge">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                  </optgroup>
-                  <optgroup label="Ford">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                  </optgroup>
-                  <optgroup label="Mercedes">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                  </optgroup>
-                </select>
-              </label>
-            </fieldset>
-            <fieldset>
-              <legend>silnik moc/rodzaj</legend>
-              <label for="opt_eng" class="blok">
-                <select name="opt_eng" id="opt_eng">
-                  <option value="none" class="none">Brak</option>
-                  <option value="">V 6</option>
-                  <option value="">V 8</option>
-                  <option value="">V 10</option>
-                  <option value="">V 12</option>
-                </select>
-              </label>
-              <div class="engine_r">
-                <label for="ben">
-                  Benzyna: <input type="radio" name="engine_r" id="ben" />
-                </label>
-                <label for="dis">
-                  Diesel: <input type="radio" name="engine_r" id="dis" />
-                </label>
-                <label for="ele">
-                  Elektryk: <input type="radio" name="engine_r" id="ele" />
-                </label>
-                <label for="hyb">
-                  Hybryda: <input type="radio" name="engine_r" id="hyb" />
-                </label>
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend>wyglad wewnetrzny</legend>
-            </fieldset>
-            <fieldset>
-              <legend>wyglad zewnetrzny</legend>
-            </fieldset>
+            <!-- <fieldset>
+              <legend>Marka oraz rodzaj</legend> -->
+            <label for="opt_model" class="blok">
+              <select name="opt_model" id="opt_model">
+                <option value="none" class="none">Brak</option>
+                <optgroup label="BMW">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                </optgroup>
+                <optgroup label="Dodge">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                </optgroup>
+                <optgroup label="Ford">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                </optgroup>
+                <optgroup label="Mercedes">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                </optgroup>
+              </select>
+            </label>
           </fieldset>
+          <fieldset>
+            <legend>silnik moc/rodzaj</legend>
+            <label for="opt_eng" class="blok">
+              <select name="opt_eng" id="opt_eng">
+                <option value="none" class="none">Brak</option>
+                <option value="">V 6</option>
+                <option value="">V 8</option>
+                <option value="">V 10</option>
+                <option value="">V 12</option>
+              </select>
+            </label>
+            <div class="engine_r">
+              <label for="ben">
+                Benzyna: <input type="radio" name="engine_r" id="ben" />
+              </label>
+              <label for="dis">
+                Diesel: <input type="radio" name="engine_r" id="dis" />
+              </label>
+              <label for="ele">
+                Elektryk: <input type="radio" name="engine_r" id="ele" />
+              </label>
+              <label for="hyb">
+                Hybryda: <input type="radio" name="engine_r" id="hyb" />
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Kolor</legend>
+            <div class="engine_r">
+              <label for="exterior">
+                Lakier: <input type="color" name="exterior" id="exterior" />
+              </label>
+              <label for="interior">
+                Wnętrze:
+                <input type="color" name="interior" id="interior" />
+              </label>
+              <label for="kolpaki">
+                Kołpaki:
+                <input type="color" name="kolpaki" id="kolpaki" />
+              </label>
+            </div>
+          </fieldset>
+          <fieldset class="wypo">
+            <legend>Wyposażenie</legend>
+            <label for="wspomaganie" class="test">
+                Wspomaganie parkowania: <input type="checkbox" name="wyp" id="wspomaganie">
+            </label>
+            <label for="drive_assist" class="test">
+                Pakiet Drive Assist: <input type="checkbox" name="wyp" id="drive_assist">
+            </label>
+            <label for="tempomat" class="test">
+                Tempomat: <input type="checkbox" name="wyp" id="tempomat">
+            </label>
+            <label for="klimatyzacja" class="test">
+                Klimatyzacja: <input type="checkbox" name="wyp" id="klimatyzacja">
+            </label>
+            <label for="navigation" class="test">
+                Nawigacja: <input type="checkbox" name="wyp" id="navigation">
+            </label>
+            <label for="ports_usb" class="test">
+                Porty USB: <input type="checkbox" name="wyp" id="ports_usb">
+            </label>
+            <label for="sys_sos" class="test">
+                System SOS: <input type="checkbox" name="wyp" id="sys_sos">
+            </label>
+            <label for="szyberdach" class="test">
+                Szyberdach: <input type="checkbox" name="wyp" id="szyberdach">
+            </label>
+            <label for="heat_seats" class="test">
+                Ogrzewane siedzenia: <input type="checkbox" name="wyp" id="heat_seats">
+            </label>
+          </fieldset>
+          </div>
+          <!-- </fieldset> -->
         </div>
         <div class="end"></div>
       </div>
