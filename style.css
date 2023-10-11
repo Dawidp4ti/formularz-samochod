@@ -1,0 +1,22 @@
+.container {
+  background-color: grey;
+  width: 98vw;
+  height: 98vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.head {
+  width: 100%;
+  background-color: rgb(179, 125, 55);
+}
+
+.main {
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.end {
+  width: 100%;
+  background-color: rgb(244, 127, 255);
+}
