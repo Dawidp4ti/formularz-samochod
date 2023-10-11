@@ -30,6 +30,11 @@
 }
 
 label {
+  font-size: large;
+  font-weight: bold;
+}
+
+.blok {
   display: block;
   font-size: large;
   font-weight: bold;
@@ -48,4 +53,33 @@ legend {
 fieldset {
   border-style: dashed;
   border-radius: 10px;
+}
+
+.salon {
+  width: 100%;
+  text-align: center;
+}
+
+select {
+  width: 100%;
+  text-align: center;
+}
+
+optgroup {
+  text-align: center;
+}
+option {
+  text-align: left;
+}
+
+.none {
+  text-align: center;
+}
+
+.engine_r {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-between;
 }
